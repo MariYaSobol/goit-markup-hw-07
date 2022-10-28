@@ -1,3 +1,5 @@
+
+// BASE //
 @import "./base/reset";
 @import "./base/container";
 @import "./base/hidden";
@@ -6,9 +8,10 @@
 @import "./base/list";
 @import "./base/current";
 
+// UTILS //
+@import "./utils/variables";
 
-@import "./utills/variables";
-
+// LAYOTS //
 @import "./layots/header";
 @import "./layots/hero";
 @import "./layots/features";
@@ -18,4 +21,5 @@
 @import "./layots/footer";
 @import "./layots/portfolio";
 
+// COMPONENT //
 @import "./component/button";

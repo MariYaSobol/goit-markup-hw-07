@@ -42,6 +42,11 @@
 
 .footer-mail {
     margin-bottom: 9px;
+
+  &:hover,
+  &:focus {
+  color: var(--accept-color);
+}
 }
 
 .footer-map {
@@ -51,12 +56,12 @@
   line-height: 1.71;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ &:hover,
+ &:focus{
+color: var(--accept-color);}
   }
 
-.footer-map:hover,
-.footer-map:focus,
-.footer-mail:hover,
-.footer-mail:focus,
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accept-color);
@@ -64,8 +69,7 @@
 
 .jion {
   display: flex;
-  /* gap: 70px; */
-  align-items: baseline;
+   align-items: baseline;
 }
 
 .join-block {
@@ -93,21 +97,20 @@ background: rgba(255, 255, 255, 0.1);
 color: var(--primary-bg-color); 
 
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+  background: var(--accept-color);
+}
 }
 
 .footer-social-icon {
   fill: currentColor;
 }
 
-.footer-net-link:hover,
-.footer-net-link:focus {
-  background: var(--accept-color);
-}
-
 .action {
   margin-left: auto;
 }
-
 
 .action-mail {
   display: flex;
@@ -155,7 +158,11 @@ display: flex;
 align-items: center;
 text-align: center;
 border: none;
-/* margin-right: 10px; */
+
+&:hover,
+&:focus {
+  background-color: var(--hidden-color);
+}
 }
 
 .action-icon {
@@ -164,7 +171,3 @@ border: none;
   margin-left: 10px;
 }
 
-.action-btn:hover,
-.action-btn:focus {
-  background-color: var(--hidden-color);
-}
