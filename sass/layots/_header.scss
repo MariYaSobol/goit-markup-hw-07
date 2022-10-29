@@ -7,8 +7,7 @@
 }
 
 .top-menu {
-  display: flex;
-  align-items: center;
+ @extend %equalizer;
  }
 
 .logo {
@@ -57,11 +56,10 @@
 }
 }
 
-.header-contact {
+.header__contact {
   list-style-type: none;
-  display: flex;
   margin-left: auto;
-  align-items: center;
+  @extend %equalizer;
 }
 
 .header-nav,
