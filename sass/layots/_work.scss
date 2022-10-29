@@ -1,4 +1,4 @@
-.work-list {
+.list {
   list-style-type: none;
   display: flex;
   gap: 30px;
@@ -8,11 +8,11 @@
   padding-bottom: 94px;
 }
 
-.work-band {
+.list__band {
   position: relative;
 }
 
-.work-band-text {
+.list__text {
 position: absolute;
 
 bottom: 0;

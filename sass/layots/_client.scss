@@ -1,15 +1,15 @@
-.client-icon {
+.client__icon {
   fill: currentColor;
 }
 
-.client-list {
+.client__list {
 list-style: none;
 @extend %equalizer;
 justify-content: center;
 gap: 30px;
 }
 
-.client-link {
+.client__link {
 @extend %equalizer;
 width: 170px;
 height: 92px;
